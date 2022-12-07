@@ -20,7 +20,7 @@ body {
 .caixa {
   position: relative;
   width: 940px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 nav {
@@ -49,8 +49,14 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.container {
+.container_descricao {
   width: 940px;
+  margin: 0 auto;
+}
+
+.container_servico {
+  width: 940px;
+  margin: 0 auto;
 }
 
 .principal {
@@ -125,7 +131,7 @@ li img {
 
 footer {
   width: 940px;
-  margin: 2em 0 0.5em 0;
+  margin: 1em auto;
   text-align: center;
   font-family: var(--font_secundaria);
   font-weight: 500;
@@ -211,6 +217,8 @@ th {
   .principal,
   .servico,
   .caixa_servico,
+  .container_descricao,
+  .container_servico,
   footer {
     width: auto;
   }
@@ -239,5 +247,8 @@ th {
   }
   .descricao {
     font-size: 1.3em;
+  }
+  nav li {
+    padding: 5px;
   }
 }
